@@ -1,0 +1,10 @@
+{
+  "name": "@iyulab/observable",
+  "version": "0.0.1",
+  "description": "hello",
+  "main": "src/index.js",
+  "types": "src/index.d.ts",
+  "scripts": {
+    "start": "echo \"Hello!\" && exit 1"
+  }
+}
