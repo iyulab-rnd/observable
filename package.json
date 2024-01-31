@@ -1,10 +1,29 @@
 {
-  "name": "@iyulab/observable",
-  "version": "0.0.1",
-  "description": "hello",
-  "main": "src/index.js",
-  "types": "src/index.d.ts",
-  "scripts": {
-    "start": "echo \"Hello!\" && exit 1"
-  }
+    "name": "@iyulab/observable",
+    "description": "A simple observable library for javascript",
+    "version": "0.0.1",
+    "author": {
+        "name": "iyulab",
+        "url": "https://www.iyulab.com"
+    },
+    "license": "MIT",
+    "type": "module",
+    "main": "./src/index.js",
+    "module": "./src/index.js",
+    "types": "./src/index.d.ts",
+    "scripts": {
+        "build": "iyulab build -d dist -b rollup",
+        "deploy": "iyulab publish"
+    },
+    "devDependencies": {
+        "@iyulab/utils": "^0.0.4",
+        "@rollup/plugin-commonjs": "^25.0.7",
+        "@rollup/plugin-json": "^6.1.0",
+        "@rollup/plugin-node-resolve": "^15.2.3",
+        "@rollup/plugin-typescript": "^11.1.6",
+        "@types/node": "^20.11.13",
+        "rollup": "^4.9.6",
+        "rollup-plugin-dts": "^6.1.0",
+        "typescript": "^5.3.3"
+    }
 }
